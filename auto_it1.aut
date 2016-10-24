@@ -1,0 +1,7 @@
+## test file for auto it
+dim $application = 'C:\Windows\system32\notepad.exe'
+dim $title = 'Untitled'
+Run($application)
+;WinSetOnTop($title, "", 1)
+Sleep(10000)
+WinSetOnTop($title, "", 1)
